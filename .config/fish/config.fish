@@ -1,5 +1,6 @@
 # login
 set -Ux TZ UTC
+set GPG_TTY $(tty)
 set fish_greeting
 touch $HOME/.hushlogin
 set -Ux fish_user_paths \
