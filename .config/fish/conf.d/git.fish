@@ -1,8 +1,9 @@
 #!/usr/bin/var fish
+source $MC
 
 # git functions
 function repos --description 'Show git directory structure.'
-    tree -L 2 $etc/git
+    tree -L 2 $GIT
 end
 
 function deploy_test --description 'Deploy development environment.'

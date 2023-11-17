@@ -1,5 +1,5 @@
 #!/usr/bin/env fish
-source $my_config
+source $MC
 
 # domain defaults
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
@@ -11,5 +11,5 @@ defaults write com.apple.finder ShowStatusBar -bool true
 killall Finder
 defaults write com.apple.dock workspaces-auto-swoosh -bool NO
 killall Dock
-defaults write com.apple.screencapture location $scr
+defaults write com.apple.screencapture location $SCREENSHOTS
 killall SystemUIServer
