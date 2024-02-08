@@ -1,0 +1,8 @@
+[user]
+	signingkey = 6EBDB51471AF2339
+	name = Sean Bethard
+	email = sean@seanbethard.net
+[commit]
+	gpgsign = true
+[gpg]
+	program = /opt/homebrew/bin/gpg
