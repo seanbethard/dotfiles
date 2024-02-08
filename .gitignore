@@ -12,6 +12,7 @@
 .config/stripe/
 .docker/
 .gnupg/
+.hammerspoon/Spoons/
 .hgrc
 .lesshst
 .local/
