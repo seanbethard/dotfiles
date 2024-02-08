@@ -1,1 +1,0 @@
-/Users/seanbethard/.hammerspoon/init.lua
