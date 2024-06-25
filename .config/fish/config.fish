@@ -1,6 +1,6 @@
 # log in
 set -Ux TZ UTC
-set GPG_TTY $(tty)
+set -x GPG_TTY (tty)
 set fish_greeting
 touch $HOME/.hushlogin
 set -Ux fish_user_paths \
@@ -16,6 +16,8 @@ eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
+pyenv init - | source
 
 # SETUVAR
 set -Ux icloud "$HOME/Library/Mobile Documents/com~apple~CloudDocs"
@@ -39,6 +41,7 @@ set -Ux HOMEBREW_CELLAR /opt/homebrew/Cellar
 set -Ux HOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK FALSE
 set -Ux HOMEBREW_NO_INSTALL_CLEANUP FALSE
 set -Ux HOMEBREW_NO_INSTALL_UPGRADE FALSE
+set -Ux PYENV_ROOT $HOME/.pyenv
 
 # abbreviations
 abbr --add kee keepassxc-cli
