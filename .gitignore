@@ -8,7 +8,6 @@
 .aws/
 .cache/
 .cargo/
-.config/gtk-2.0/
 .config/stripe/
 .docker/
 .gnupg/
@@ -25,7 +24,6 @@
 .swiftpm/
 .zsh_history
 .zsh_sessions/
-iOS-desktop/
 Applications/
 Desktop/
 Documents/
