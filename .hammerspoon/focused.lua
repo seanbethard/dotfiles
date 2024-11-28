@@ -1,4 +1,4 @@
-local focusedSizes = {1,2,3,4,5}
+local focusedSizes = {4,3,2,3/2,4/3,10/9}
 local GRID = {w = 24, h = 24}
 hs.grid.setGrid(GRID.w .. 'x' .. GRID.h)
 hs.grid.MARGINX = 0
